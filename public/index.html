@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCBY1bvqPBkDDPQ_Bljc8wONYlZJ_gEAXs",
+            authDomain: "simple-todo-list-90a17.firebaseapp.com",
+            projectId: "simple-todo-list-90a17",
+            storageBucket: "simple-todo-list-90a17.appspot.com",
+            messagingSenderId: "17873459708",
+            appId: "1:17873459708:web:50011860ba1946761d3a79",
+            measurementId: "G-MPC60PNZXZ"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
