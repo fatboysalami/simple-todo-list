@@ -1,4 +1,4 @@
-Simple Todo Application | [Demo](https://todo-app-fc640.web.app/)
+Simple Todo Application | [Demo](https://simple-todo-list-b2ef1.web.app/)
 -
 
 Stack:
